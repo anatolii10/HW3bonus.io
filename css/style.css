@@ -1,0 +1,147 @@
+/*****************************Основа****************************/
+body {
+  font-family: Tahoma;
+  background: black;
+  color: white;
+}
+.basis {
+  background-image: url(../img/background.jpg);
+  margin: 0 auto;
+  width: 960px;
+  height: 880px;
+}
+.content {
+  margin: 0 70px;
+}
+
+/************************Голова*******************************/
+header {
+  width: 820px;
+  height: 200px;
+}
+.logo {
+  display: inline-block;
+  padding-top: 50px;
+  width: 335px;
+  height: 177px;
+  background: url(../img/logo.png) no-repeat 0 66%,
+              url(../img/palm.png) no-repeat 69% 67%;
+  float: left;
+
+}
+.slogan {
+  margin: 120px 0 0 100px;
+  font-size: 10px;
+
+
+}
+.contact {
+  float: right;
+  margin-top: 150px;
+}
+.contact h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+.contact p {
+  font-size: 10px;
+}
+
+/**************************Контент******************************/
+
+.conteiner {
+  position: relative;
+  height: 635px;
+  width: 820px;
+}
+.india {
+  position: absolute;
+  background: url(../img/india.jpg) no-repeat 5px 5px,
+              url(../img/ramka.png) no-repeat;
+  width: 268px;
+  height: 215px;
+}
+.india h2 {
+  text-align: center;
+  padding-top: 190px;
+}
+
+.nepal {
+  position: absolute;
+  left: 278px;
+  background: url(../img/nepal.jpg) no-repeat 5px 5px,
+              url(../img/ramka.png) no-repeat;
+  width: 268px;
+  height: 215px;
+}
+.nepal h2 {
+  text-align: center;
+  padding-top: 190px;
+}
+
+.tibet {
+  position: absolute;
+  left: 553px;
+  background: url(../img/tibet.jpg) no-repeat 5px 5px,
+              url(../img/ramka.png) no-repeat;
+  width: 268px;
+  height: 215px;
+}
+.tibet h2 {
+  text-align: center;
+  padding-top: 190px;
+}
+
+
+.bhutan {
+  position: absolute;
+  top: 250px;
+  background: url(../img/bhutan.jpg) no-repeat 5px 5px,
+              url(../img/ramka.png) no-repeat;
+  width: 268px;
+  height: 215px;
+}
+.bhutan h2 {
+  text-align: center;
+  padding-top: 190px;
+}
+
+
+.sril {
+  position: absolute;
+  top: 250px;
+  left: 278px;
+  background: url(../img/sril.jpg) no-repeat 5px 5px,
+              url(../img/ramka.png) no-repeat;
+  width: 268px;
+  height: 215px;
+}
+.sril h2 {
+  text-align: center;
+  padding-top: 190px;
+}
+
+
+.maldives {
+  position: absolute;
+  top: 250px;
+  left: 553px;
+  background: url(../img/maldives.jpg) no-repeat 5px 5px,
+              url(../img/ramka.png) no-repeat;
+  width: 268px;
+  height: 215px;
+}
+.maldives h2 {
+  text-align: center;
+  padding-top: 190px;
+}
+
+/****************************Footer**********************/
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 12px;
+}
+/*footer p {
+  font-size: 12px;
+}
